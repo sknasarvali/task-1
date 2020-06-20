@@ -1,0 +1,40 @@
+
+body{
+	background-color: #6B93F1;
+
+}
+
+#main{
+	background-color: #3959A1;
+	margin:5%;
+	padding:4%;
+	display: flex;
+	justify-content:space-around;
+	
+}
+
+.card{
+	width: 25%;
+	background-color: #F2E6B0;
+	border:1px solid #141412;
+	border-radius: 5%;
+	text-align:center;
+	box-shadow: 4px 4px 5px 5px;
+	padding-bottom: 5%;
+}
+
+.card img{
+	width:75%;
+	margin-top: 4%;
+	border-radius: 4%;
+
+}
+
+.card a{
+	text-decoration: none;
+	color:#141412;
+}
+
+div .card:hover{
+	box-shadow: 4px 4px 5px 5px #A2B5E2;
+}

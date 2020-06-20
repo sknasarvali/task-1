@@ -1,0 +1,101 @@
+body{
+	
+	background-color: #00FFFF;
+}
+
+.pro{
+	font-size: 40px;
+	text-align: center;
+
+}
+
+.main{
+	margin:1% 10%;
+	background-color: #FFC0CB;
+	display: flex;
+	padding: 5%;
+	justify-content: space-between;
+	border-radius: 5%;
+	position: relative;
+	height: 760px;
+	
+
+}
+
+.card img{
+	border-radius: 50%;
+	width:75%;
+}
+
+.card{
+	padding-top: 2%;
+	text-align: center;
+	background-color: #FFE4C4;
+	height:57%;
+	margin-top:3%;
+	border:1px solid #000000;
+	box-shadow: 4px 4px 4px 4px;
+	position: fixed;
+		
+}
+
+.card:hover,.resume:hover{
+	box-shadow: 4px 4px 4px 4px #B0C2EA;
+}
+
+.resume{
+	background-color: #FFE4C4;
+	margin-top: 3%;
+	padding-left: 5%;
+	padding-right:5%;
+	box-shadow: 4px 4px 4px 4px;
+	position: absolute;
+	right:100px;
+
+
+
+}
+.resume table,th,td{
+	border-collapse: collapse;
+	border:1px solid #000000;
+	width:90%;
+	text-align: center;
+
+}
+
+.resume .info{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10%;
+}
+
+@media screen and (max-width:500px){
+
+body{
+	background-color: red;
+}
+.main{
+	flex-direction: column;
+	position: relative;
+}
+
+.card{
+	padding-top: 2%;
+	text-align: center;
+	background-color: #FFE4C4;
+	height:57%;
+	margin-top:3%;
+	border:1px solid #000000;
+	box-shadow: 4px 4px 4px 4px;
+	position: absolute;
+}
+
+
+
+.resume{
+	background-color: #FFE4C4;
+	position: absolute;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+	
+}
